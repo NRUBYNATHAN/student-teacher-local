@@ -1,0 +1,64 @@
+.student{
+    width:350px;
+    border: 1px solid rgb(39, 37, 37);
+    height: min-content;
+   
+}
+h2{
+    display: inline;
+}
+.img{
+    width: 390px;
+    height:350px;
+    object-fit: cover;
+    
+}
+.detail{
+    padding: 20px;
+    margin: 0;
+}
+.studentlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap:16px;
+    justify-items: center;
+    
+}
+.name{
+    margin:0px;
+    display: flex;
+    justify-content: space-between;
+}
+.Add{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width:500px;
+    margin: 10px auto;
+}
+body{
+    margin:0 ;
+}
+.age{
+   margin-top:0;
+   margin-bottom: 7px;
+}
+.col{
+color:blue;
+}
+.teacherlist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap:16px;
+    justify-items: center;
+    
+}
+img{
+
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+   width:900px;
+   position: relative;
+   left: 300px;
+}
