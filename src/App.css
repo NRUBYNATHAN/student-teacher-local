@@ -53,12 +53,10 @@ color:blue;
     justify-items: center;
     
 }
-img{
+.src{
 
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items:center; */
-   width:900px;
-   position: relative;
-   left: 300px;
+    align-items:center;
+  
 }
